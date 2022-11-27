@@ -1,0 +1,74 @@
+html {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    color: #ffca8e;
+    line-height: 1.5;
+    word-break: break-word;
+    height: 100%;
+    
+    background-image: url(../img/tiles.jpg);
+    background-repeat: repeat-y;
+    background-attachment:fixed;
+}
+
+
+#nickname {
+    color: #ff8800b9;
+}
+
+.darkglass {
+    text-align: center;
+    padding: 25px;
+    margin: 30px 40px;
+    background-color: rgba(0, 0, 0, 0.6);
+    justify-content: space-around;
+}
+
+.darkglass > * {
+    margin: 20px;
+}
+
+.divider {
+    display: none;
+}
+
+p {
+    color: #f80;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+a {
+    color:#ffac4d;
+    text-decoration: none;
+    font-weight: bold;
+    border: 3px solid #ff880066;
+    padding: 0 15px;
+    
+}
+
+ul {
+    
+    list-style-position: inside;
+    list-style-type: disc;
+}
+
+.name {
+    margin: auto;
+    font-size: 1.8rem;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    .darkglass {
+        display: flex;
+    }
+ 
+
+    .divider {
+        display: block;
+        border-left: 3px solid #ff8800b9;
+    }
+}

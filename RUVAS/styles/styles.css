@@ -6,32 +6,45 @@ html {
     color: #ffca8e;
     line-height: 1.5;
     word-break: break-word;
-    height: 100%;
     
     background-image: url(../img/tiles.jpg);
-    background-repeat: repeat-y;
+    background-size: cover;
     background-attachment:fixed;
 }
 
-
 #nickname {
-    color: #ff8800b9;
+    color: #f60;
 }
+
+.button:hover {
+    border: 5px solid #ff880066;
+    border-radius: 3px;
+    background-color: #f60;
+    color: #ffca8e;
+}
+
+.gallery:hover span {
+    display: none
+  }
+  
+.gallery:hover:before {
+    content: "пусто :("
+  }
 
 .darkglass {
     text-align: center;
     padding: 25px;
-    margin: 30px 40px;
+    /*margin: 30px 40px;*/
     background-color: rgba(0, 0, 0, 0.6);
     justify-content: space-around;
 }
 
-.darkglass > * {
-    margin: 20px;
-}
-
 .divider {
     display: none;
+}
+
+.doc > * {
+    margin: 0 40px;
 }
 
 p {
@@ -45,7 +58,7 @@ a {
     text-decoration: none;
     font-weight: bold;
     border: 3px solid #ff880066;
-    padding: 0 15px;
+    padding: 5px;
     
 }
 
@@ -61,9 +74,10 @@ ul {
 }
 
 @media only screen and (min-width: 768px) {
-    /* For mobile phones: */
+    /*NOT mobile*/
     .darkglass {
         display: flex;
+        margin-bottom: 4vh;
     }
  
 
@@ -71,4 +85,18 @@ ul {
         display: block;
         border-left: 3px solid #ff8800b9;
     }
+
+    .doc {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .bottom {
+        margin-bottom: 0;
+    }
+    .mid {
+        flex: 1;
+    }
+    
 }

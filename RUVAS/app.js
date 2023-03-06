@@ -1,3 +1,5 @@
+import { langs } from './lang.js';
+
 document.addEventListener('click', (event) => {
     let elem = event.target;
     let active = document.querySelector('.flag-active');
@@ -6,5 +8,14 @@ document.addEventListener('click', (event) => {
         active.classList.remove('flag-active');
         elem.classList.add('flag-active');
         elem.classList.remove('flag');
+        
+        let lang = elem.id;
+        let body = document.querySelector('body');
+        let doc = document.getElementById('doc');
+
+        body.removeChild(doc);
+
+        body.insertAdjacentHTML('afterbegin', langs[lang])
     }
+    
 })

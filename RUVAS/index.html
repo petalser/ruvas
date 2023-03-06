@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RUVAS</title>
-    <script src="app.js"></script>
+    
     <link rel="stylesheet" href="styles/CSSReset.css">
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="doc">
+    <div id="doc">
         <div class="darkglass">
             <div class="flags">
                 <img src="./img/us.jpg" alt="English" id="us" class="flag-active">
@@ -76,10 +76,6 @@
             <a class="gallery button" href="#" onClick="galleryAlert()"><span>Галерея</span></a>
         </div> 
     </div>
-    <script>
-        function galleryAlert() {
-            alert("Извините, галерея пока пуста!")
-        }
-    </script>
+    <script type="module" src="app.js"></script>
 </body>
 </html>

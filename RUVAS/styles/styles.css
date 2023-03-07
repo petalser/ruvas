@@ -31,10 +31,6 @@ html {
     cursor: pointer;
 }
 
-.flag-active {
-    border: 4px solid #f60;
-}
-
 #probably {
     color: #f60;
 }

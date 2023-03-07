@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RUVAS</title>
-    
+    <script src="app.js"></script>
     <link rel="stylesheet" href="styles/CSSReset.css">
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,24 +13,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="doc">
+    <div class="doc">
         <div class="darkglass">
             <div class="flags">
-                <img src="./img/us.jpg" alt="English" id="us" class="flag-active">
-                <img src="./img/ua.png" alt="Ukrainian" id="ua" class="flag">
-                <img src="./img/ru.png" alt="Russian" id="ru" class="flag">
+                <img src="./img/us.jpg" alt="English" id="us">
+                <img src="./img/ua.png" alt="Ukrainian" id="ua">
+                <img src="./img/ru.png" alt="Russian" id="ru">
             </div>
             <div class="name">
-                
                 <h1>RUSLAN VASILIEV</h1>
             </div>
-            <!--<div class="divider">
-    
-            </div>-->
-            <div class="about mob">
-
-                <h3><span id='probably'>Возможно,</span> лучший контрактор в окрестностях Чикаго
-                </h3>
+            <div class="about">
+                <h3><span id='probably'>Возможно,</span> лучший контрактор в окрестностях Чикаго</h3>
                 <a href="tel:+12243924953">+1 224 392 4953</a>
             </div>
         </div>
@@ -76,6 +70,10 @@
             <a class="gallery button" href="#" onClick="galleryAlert()"><span>Галерея</span></a>
         </div> 
     </div>
-    <script type="module" src="app.js"></script>
+    <script>
+        function galleryAlert() {
+            alert("Извините, галерея пока пуста!")
+        }
+    </script>
 </body>
 </html>

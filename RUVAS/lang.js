@@ -2,9 +2,9 @@ let langs = {
     "us": `<div id="doc">
         <div class="darkglass">
             <div class="flags">
-                <img src="./img/us.jpg" alt="English" id="us" class="flag-active">
-                <img src="./img/ua.png" alt="Ukrainian" id="ua" class="flag">
-                <img src="./img/ru.png" alt="Russian" id="ru" class="flag">
+                <img src="./img/us.jpg" alt="English" id="us" style="border:4px solid #f60">
+                <img src="./img/ua.png" alt="Ukrainian" id="ua" style="border:0">
+                <img src="./img/ru.png" alt="Russian" id="ru" style="border:0">
             </div>
             <div class="name">
                 
@@ -62,13 +62,13 @@ let langs = {
     "ua": `<div id="doc">
         <div class="darkglass">
             <div class="flags">
-                <img src="./img/us.jpg" alt="English" id="us" class="flag-active">
-                <img src="./img/ua.png" alt="Ukrainian" id="ua" class="flag">
-                <img src="./img/ru.png" alt="Russian" id="ru" class="flag">
+            <img src="./img/us.jpg" alt="English" id="us"  style="border:0">
+            <img src="./img/ua.png" alt="Ukrainian" id="ua" style="border:4px solid #f60">
+            <img src="./img/ru.png" alt="Russian" id="ru" style="border:0">
             </div>
             <div class="name">
                 
-                <h1>РУСЛАН ВАСІЛ'ЄВ</h1>
+                <h1>RUSLAN VASILIEV</h1>
             </div>
             <!--<div class="divider">
     
@@ -125,9 +125,9 @@ let langs = {
     "ru": `<div id="doc">
         <div class="darkglass">
             <div class="flags">
-                <img src="./img/us.jpg" alt="English" id="us" class="flag-active">
-                <img src="./img/ua.png" alt="Ukrainian" id="ua" class="flag">
-                <img src="./img/ru.png" alt="Russian" id="ru" class="flag">
+            <img src="./img/us.jpg" alt="English" id="us" style="border:0">
+            <img src="./img/ua.png" alt="Ukrainian" id="ua" style="border:0" >
+            <img src="./img/ru.png" alt="Russian" id="ru" style="border:4px solid #f60">
             </div>
             <div class="name">
                 
@@ -137,53 +137,68 @@ let langs = {
     
             </div>-->
             <div class="about mob">
+=======
+const langs = {
+    "name": {
+        "en": "RUSLAN VASILIEV",
+        "ua": "РУСЛАН ВАСІЛЬ'ЄВ",
+        "ru": "РУСЛАН ВАСИЛЬЕВ"
+    },
+    "description": {
+        "en": "best contractor of Chicago and area",
+        "ua": "кращий контрактор у Чикаго та околицях",
+        "ru": "лучший контрактор в Чикаго и окрестностях"
+    },
+    "probably": {
+        "en": "Probably",
+        "ua": "Можливо",
+        "ru": "Возможно"
+    },
+    "lng-sct1": {
+        "en": "",
+        "ua": "",
+        "ru": "<h3>Установка,<br>ремонт и<br>обслуживание:<br>
+        <ul>
+            <li>сантехники<br>
+                <p>от прокладки труб до установки ванн</p></li>
+            <li>электрики<br>
+                <p>ремонт/замена розеток, выключателей,<br>
+                установка электроприборов</p></li>
+            <li>вентсистем<br>
+                <p>установка и ремонт вытяжек</p></li>
+            
+        </ul>
+        </h3>"
+    },
+    "lng-sct2": {
+        "en": "",
+        "ua": "",
+        "ru": ""
+    },
+    "lng-sct3": {
+        "en": "",
+        "ua": "",
+        "ru": ""
+    },
 
-                <h3><span id='probably'>Возможно,</span> лучший контрактор в окрестностях Чикаго
-                </h3>
-                <a href="tel:+12243924953">+1 224 392 4953</a>
-            </div>
-        </div>
-        <!-- <div class="gapSpace"></div> -->
-        <div class="darkglass mid">
-            <div class="about">
-                <h3>Установка, ремонт и обслуживание:
-                <ul>
-                    <li>сантехники
-                        <p>от прокладки труб до установки ванн</p></li>
-                    <li>электрики
-                        <p>ремонт/замена розеток, выключателей, 
-                        установка электроприборов</p></li>
-                    <li>вентсистем
-                        <p>установка и ремонт вытяжек</p></li>
-                    
-                </ul>
-                </h3>
-            </div>
-            <div class="divider"></div>
-            <div class="about">
-                <h3>Работа споверхностями:
-                <ul>
-                    <li>монтаж <p>полов, стен, пр.</p></li>
-                    <li>штукатурка<p></p></li>
-                    <li>покраска<p>полов, потолков,<br>стен (как внутри, так и снаружи)<br> и прочего</p></li>
-                    <li>укладка плитки, кирпича</li>
-                </ul></h3>
-            </div>
-            <div class="divider"></div>
-            <div class="about">
-                <h3>Монтаж и ремонт мебели
-                    <p>кухни, спальни,
-                    детские, гардеробы</p>
-                Двери и окна<br>
-                    <p>установка и замена</p>
-                А также внешняя отделка, 
-                ландшафтные работы и многое другое</h3>
-            </div>
-        </div>
-        <div class="darkglass narrow bottom">
-            <a class="call button" href="tel:+12243924953">Позвонить</a>
-            <a class="gallery button" href="#" onClick="galleryAlert()"><span>Галерея</span></a>
-        </div> 
-    </div>`
+
+>>>>>>> parent of fbde547 (lang switch js done)
+
+
+
+
+
+
+
+
+
+
+
+
+
+    "unit": {
+        "en": "",
+        "ua": "",
+        "ru": ""
+    },
 }
-export {langs}

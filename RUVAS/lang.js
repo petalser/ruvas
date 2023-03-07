@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 let langs = {
     "us": `<div id="doc">
         <div class="darkglass">
@@ -185,6 +186,54 @@ const langs = {
 >>>>>>> parent of fbde547 (lang switch js done)
 
 
+=======
+const langs = {
+    "name": {
+        "en": "RUSLAN VASILIEV",
+        "ua": "РУСЛАН ВАСІЛЬ'ЄВ",
+        "ru": "РУСЛАН ВАСИЛЬЕВ"
+    },
+    "description": {
+        "en": "best contractor of Chicago and area",
+        "ua": "кращий контрактор у Чикаго та околицях",
+        "ru": "лучший контрактор в Чикаго и окрестностях"
+    },
+    "probably": {
+        "en": "Probably",
+        "ua": "Можливо",
+        "ru": "Возможно"
+    },
+    "lng-sct1": {
+        "en": "",
+        "ua": "",
+        "ru": "<h3>Установка,<br>ремонт и<br>обслуживание:<br>
+        <ul>
+            <li>сантехники<br>
+                <p>от прокладки труб до установки ванн</p></li>
+            <li>электрики<br>
+                <p>ремонт/замена розеток, выключателей,<br>
+                установка электроприборов</p></li>
+            <li>вентсистем<br>
+                <p>установка и ремонт вытяжек</p></li>
+            
+        </ul>
+        </h3>"
+    },
+    "lng-sct2": {
+        "en": "",
+        "ua": "",
+        "ru": ""
+    },
+    "lng-sct3": {
+        "en": "",
+        "ua": "",
+        "ru": ""
+    },
+
+
+
+
+>>>>>>> parent of fbde547 (lang switch js done)
 
 
 
